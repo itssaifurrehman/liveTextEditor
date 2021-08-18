@@ -10,11 +10,12 @@
   height: 100%;
   z-index: 3;
   background: white;
-  overflow: hidden;
   display: block;
   border-radius: 1px;
   -webkit-box-shadow: 0 0 0 3px #111;
   box-shadow: 0 0 0 3px #111;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 .marvel-device .top-bar,
 .marvel-device .bottom-bar {
@@ -197,6 +198,7 @@
   .marvel-device.iphone-x {
     width: 274px;
     height: 612px;
+    
   }
 
   .marvel-device.iphone-x .notch {
